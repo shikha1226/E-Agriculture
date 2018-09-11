@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 8 Apr, 2017 1:14:27 PM by Hibernate Tools 5.2.0.Beta1 -->
+<hibernate-mapping>
+    <class name="com.pojo.Feedback" table="feedback" catalog="eagri" optimistic-lock="version">
+        <id name="feedbackId" type="java.lang.Long">
+            <column name="feedbackId" />
+            <generator class="identity" />
+        </id>
+        <property name="name" type="string">
+            <column name="name" length="100" not-null="true" />
+        </property>
+        <property name="emailId" type="string">
+            <column name="emailId" length="45" not-null="true" />
+        </property>
+        <property name="subject" type="string">
+            <column name="subject" length="100" not-null="true" />
+        </property>
+        <property name="message" type="string">
+            <column name="message" length="300" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>
