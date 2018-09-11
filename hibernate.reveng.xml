@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd" >
+
+<hibernate-reverse-engineering>
+  <table-filter match-catalog="eagri" match-name="adminaddpro"/>
+  <table-filter match-catalog="eagri" match-name="adminlogin"/>
+  <table-filter match-catalog="eagri" match-name="category"/>
+  <table-filter match-catalog="eagri" match-name="farmerregi"/>
+  <table-filter match-catalog="eagri" match-name="feedback"/>
+  <table-filter match-catalog="eagri" match-name="prodcat"/>
+  <table-filter match-catalog="eagri" match-name="register"/>
+</hibernate-reverse-engineering>
