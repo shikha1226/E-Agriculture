@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 8 Apr, 2017 1:14:27 PM by Hibernate Tools 5.2.0.Beta1 -->
+<hibernate-mapping>
+    <class name="com.pojo.Adminaddpro" table="adminaddpro" catalog="eagri" optimistic-lock="version">
+        <id name="proId" type="java.lang.Integer">
+            <column name="ProId" />
+            <generator class="identity" />
+        </id>
+        <property name="name" type="string">
+            <column name="Name" length="45" />
+        </property>
+        <property name="code" type="string">
+            <column name="Code" length="45" />
+        </property>
+        <property name="price" type="string">
+            <column name="Price" length="45" />
+        </property>
+        <property name="image" type="binary">
+            <column name="Image" />
+        </property>
+        <property name="category" type="string">
+            <column name="Category" length="45" />
+        </property>
+        <property name="description" type="string">
+            <column name="Description" length="500" />
+        </property>
+    </class>
+</hibernate-mapping>
